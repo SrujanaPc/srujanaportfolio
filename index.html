@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srujana Poornachandra</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Hobbies">Interests</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Tyro</p>
+                <h1>Hi, I'm Srujana Poornachandra</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="photo.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>This is Srujana Poornachandra. I'm a university student 
+                        who is eager to bring academic achievements and practical 
+                        experiences to a dynamic and challenging environment where 
+                        I can continue to learn, contribute and grow.
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web development</span><br>Development of websites</li>
+                            <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                            <li><span>Coding</span><br>Solving Software problems</li>
+                            <li><span>Languages</span><br>C,C++,Python,html,CSS,Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>10th from MP Prakash High School</li>
+                            <li><span>2022</span><br>12th from Vedantha College</li>
+                            <li><span>2023</span><br>Persuing B.Tech(Hons) from RV University</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <p>Looking forward to work with you and 
+                            improve my knowledge and experience !!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>UI/UX Designing</h2>
+                <p>As a skilled web designer, I bring a creative and strategic approach to crafting visually appealing and functional
+                websites. Proficient in HTML, CSS, and JavaScript, I specialize in creating user-friendly interfaces that enhance the
+                overall online experience.</p>
+            </div>
+            <div>
+                <h2>Web Development</h2>
+                <p>I specialize in translating innovative ideas into robust and interactive online solutions.
+                    I excel in building dynamic websites and web applications.
+                </p>
+            </div>
+            <div>
+                <h2>Coding</h2>
+                <p>I bring a passion for problem-solving and a meticulous approach to writing efficient and elegant code. Proficient in
+                languages such as Python, C, and C++, I specialize in developing clean, scalable, and maintainable code that meets
+                project requirements.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Hobbies">
+    <div class="container">
+        <h1 class="sub-title">My Hobbies</h1>
+        <div class="list">
+            <div class="work">
+                <img src="bdmtn.jpg">
+                <div class="layer">
+                 <h3>Badminton</h3>
+                 <p>I am a passionate badminton player.
+                 Beyond the physical benefits, badminton has taught me valuable lessons in strategy, teamwork, and perseverance.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="musdan.jpeg">
+                <div class="layer">
+                 <h3>Cultural events</h3>
+                 <p>Engaging in activities such as attending cultural events, festivals, and exhibitions, I find joy in learning about
+                 traditions, customs, and art from around the world.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Connect with me</h1>
+                <p>&#9993; <a href="mailto:srujanapoornachandr@gmail.com">srujanapoornachandr@gmail.com</a></p>
+                <p>&phone; <a href="tel : +919482455662">+91948245562</a></p>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message"></textarea>
+                    <button type="button" class="btn" onclick="alert('Message sent successfully!!! ')" aria-setsize="2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">&copy;Srujana Poornchandra 2024</div>
+</div> 
+
+
+
+
+<script src="javamain.js">
+</script>
+</body>
+</html>
